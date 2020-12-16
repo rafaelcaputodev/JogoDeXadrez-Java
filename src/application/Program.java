@@ -19,10 +19,10 @@ public class Program {
 		ChessMatch chessMatch = new ChessMatch();
 		List<ChessPiece> captured = new ArrayList<>();
 		
-		while (true) {
+		while (!chessMatch.getCheckMate()) {
 			try {
 				UI.clearScreen();
-				UI.pirntMatch(chessMatch, captured);
+				UI.printMatch(chessMatch, captured);
 				System.out.println();
 				System.out.print("Source: ");
 				ChessPosition source = UI.readChessPosition(sc);
@@ -50,6 +50,7 @@ public class Program {
 				sc.nextLine();
 			}
 		}
-	
+		UI.clearScreen();
+		UI.printMatch(chessMatch, captured);
 	}
 }
