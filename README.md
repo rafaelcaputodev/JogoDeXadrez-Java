@@ -11,4 +11,10 @@ A mecânica do jogo é baseada em linhas (1, 2, 3, 4, 5, 6, 7, 8) e colunas (a, 
 - Target é o destino, ou seja, o local no qual o jogador irá mover a peça.
 - O jogo possui sistema de Check e CheckMate.
 
+# Instalação
+1- Faça o dowload e extração do projeto.
+2- Abra um terminal (Git Bash é o recomendado, pois é colorido)
+3- Entre no diretório /bin do projeto (comando: cd bin)
+4- Após entrar no diretório, digite Java application/Program para rodar a aplicação (O java precisa estar na versão 11 ou superior).
+5- Bom Jogo!
 
